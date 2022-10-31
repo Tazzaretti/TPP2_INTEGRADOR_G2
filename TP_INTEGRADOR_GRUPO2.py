@@ -288,14 +288,3 @@ try:
 except:
     print("La tabla ya existe.")
 programa.menu()
-
-
-
-
-#Si necesitamos almacenar la fecha y hora actual utilizamos la función datetime:
-#
-#insert into asistencia(dni, fechahora) values ('11111111', datetime('now','localtime'));
-#Se almacena en el campo fechahora la fecha y hora local del equipo donde se ejecuta el programa.
-
-
-#select FECHA from [TuTabla] where date(FECHA ) < date('2016-06-23');
